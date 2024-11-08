@@ -1,0 +1,12 @@
+package condicional_ternario;
+
+public class ResultadoEscolarCenarioDois {
+	
+	public static void main(String[] args) {
+		// Um operador ternário com condição encadeada
+		int nota = 7;
+		String resultado = nota >= 7 ? "Aprovado!" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado!";
+		System.out.println(resultado);
+	}
+
+}
